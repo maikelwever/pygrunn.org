@@ -2,18 +2,19 @@ jQuery(function($) {
 
     var fn = function(){},
         win = $(window),
+        doc = $(document),
         fullscreenPos = $('.fullscreen'),
         offcanvasMenu = $('#offcanvasmenu'),
         offcanvasMenuLink = $('.uk-offcanvasmenu-bar li > a'),
-        logo = $('.uk-logo');
+        logo = $('.logo');
 
     fn = function(){
 
-        setTimeout(function(){ fullscreenPos.css('height', win.height()); }, 10);
+        setTimeout(function () { fullscreenPos.css('height', win.height()); }, 10);
 
     };
 
-    win.on('load resize', (function(){
+    win.on('load resize', (function () {
 
         fn();
 
@@ -21,7 +22,7 @@ jQuery(function($) {
 
     })());
 
-    var hideOffCanvasMenu = function(){
+    var hideOffCanvasMenu = function () {
 
         if (!offcanvasMenu.hasClass('uk-hidden')) {
 
@@ -31,21 +32,19 @@ jQuery(function($) {
 
     };
 
-    offcanvasMenuLink.on('click', function(){
+    offcanvasMenuLink.on('click', function () {
 
         hideOffCanvasMenu();
 
     });
 
-    logo.on('click', function(){
+    logo.on('click', function () {
 
         hideOffCanvasMenu();
 
-        $('html,body').stop().animate({ scrollTop: 0 }, 600, 'easeOutExpo');
-
     });
 
-    $(document).ready(function() {
+    doc.on('ready', function () {
 
         $('.fancybox').fancybox({
             padding: 1,

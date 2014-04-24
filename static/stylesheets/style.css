@@ -9,30 +9,27 @@ body{background:#F0F0F0;color:#312A1E;font-family:'Quattrocento',serif;font-size
 h1,h2,h3,h4,h5,h6{font-family:'Patua One',cursive;color:#312A1E;}
 a,.uk-link{color:#F1505A;}
 a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
-.uk-bg-dark a:hover,.uk-bg-dark .uk-link:hover{color:#FFFFFF;}
+.bg-dark a:hover,.bg-dark .uk-link:hover{color:#FFFFFF;}
 *:focus,a:focus{outline:none;}
+.uk-text-small{font-size:12px;}
 
 /* Extra classes */
-.uk-text-contrast{color:#E4E5E2 !important;}
+.text-contrast *:not(i):not(a){color:#E4E5E2 !important;}
 .block-large{padding:85px 0;}
 .block-small{padding:25px 0;}
-.block{padding:45px 0;}
-.uk-more-link{text-transform:uppercase;font-family:'Patua One',cursive;}
-.uk-with-shadow{box-shadow:0 1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.1);}
-.uk-with-border{border-bottom:1px solid #FFFFFF;}
-.uk-with-full-border{border:1px solid #FFFFFF;}
-.uk-bg-dark{background:#312A1E;}
-.uk-info-section > *:last-child{margin-bottom:0;}
-.uk-margin-large{margin:45px 0 !important;}
-.uk-text-medium{font-size:20px;line-height:26px;}
+.block{padding:50px 0;}
+.with-shadow{box-shadow:0 1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.1);}
+.with-border{border-bottom:1px solid #FFFFFF;}
+.with-full-border{border:1px solid #FFFFFF;}
+.bg-dark{background:#312A1E;}
 .uk-iframe{max-width:100%;}
-.uk-text-hidden{text-indent:100%;overflow:hidden;white-space:nowrap;}
-.uk-list-col-2{column-count:2;-webkit-column-count:2;-moz-column-count:2;}
+.text-hidden{text-indent:100%;overflow:hidden;white-space:nowrap;}
+.list-col-2{column-count:2;-webkit-column-count:2;-moz-column-count:2;}
 
 /* List Icon */
-.uk-list-icon li{padding-left:12px;position:relative;}
-.uk-list-icon li:before{font-family:FontAwesome;position:absolute;left:0;top:0;font-size:11px;}
-.uk-list-icon-chevron-right li:before{content:"\f054";}
+.list-icon li{padding-left:12px;position:relative;}
+.list-icon li:before{font-family:FontAwesome;position:absolute;left:0;top:0;font-size:11px;}
+.list-icon-chevron-right li:before{content:"\f054";}
 
 /* Icons */
 .uk-icon-large:before{font-size:40px;vertical-align:middle;line-height:80px;}
@@ -40,7 +37,7 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 .uk-icon-heading-dark{background:#E4E5E2;color:#312A1E;}
 
 /* Logo */
-.uk-logo{width:197px;height:60px;background:url(../images/pygrunn_logo.png) no-repeat 0 0;margin:10px 0;background-size:contain;}
+.logo{width:197px;height:60px;background:url(../images/pygrunn_logo.png) no-repeat 0 0;margin:10px 0;background-size:contain;}
 
 /* Layouts */
 .uk-offcanvas-page{position:absolute;}
@@ -89,6 +86,14 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 .uk-overlay img{transform-origin:left bottom 0;-ms-transform-origin:left bottom 0;-webkit-transform-origin:left bottom 0;transition:all 0.4s ease-in-out 0s;-webkit-transition:all 0.4s ease-in-out 0s;}
 .uk-overlay:hover .uk-overlay-area{left:0;}
 .uk-overlay:hover img{transform:scale(1.2) translate(-20px);-ms-transform:scale(1.2) translate(-20px);-webkit-transform:scale(1.2) translate(-20px);}
+
+/* Modal */
+.uk-modal-dialog{box-shadow:0 1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.1);}
+
+/* Speakers */
+.speakers-image{margin:0 auto;width:160px;height:160px;overflow:hidden;background-repeat:no-repeat;background-position:50% 50%;background-size:cover;}
+#valerio-basile-image{background-image:url(../images/speakers/basile.jpeg);}
+#guido-kollerie-image{background-image:url(../images/speakers/guido_kollerie.jpeg);}
 
 /* Only Phones */
 @media (max-width:768px) {
