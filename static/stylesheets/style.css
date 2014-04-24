@@ -94,6 +94,12 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 .speakers-image{margin:0 auto;width:160px;height:160px;overflow:hidden;background-repeat:no-repeat;background-position:50% 50%;background-size:cover;}
 #valerio-basile-image{background-image:url(../images/speakers/basile.jpeg);}
 #guido-kollerie-image{background-image:url(../images/speakers/guido_kollerie.jpeg);}
+#kilian-evang-image{background-image:url(../images/speakers/kilian_evang.jpeg);}
+#pawel-lewicki-image{background-image:url(../images/speakers/pawel_lewicki.jpeg);}
+#kenneth-reitz-image{background-image:url(../images/speakers/kenneth_reitz.jpeg);}
+#dmitrijs-milajevs-image{background-image:url(../images/speakers/dmitrijs_milajevs.jpeg);}
+#job-ganzevoort-image{background-image:url(../images/speakers/job_ganzevoort.jpeg);}
+#gijs-molenaar-image{background-image:url(../images/speakers/gijs_molenaar.jpeg);}
 
 /* Only Phones */
 @media (max-width:768px) {
