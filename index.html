@@ -189,14 +189,11 @@
                                 <img class="with-shadow" width="80" src="static/images/speakers/valerio_basile.jpeg" alt="Valerio Basile" />
                                 <span class="uk-text-middle uk-text-bold uk-margin-left">Valerio Basile</span>
                                 <p class="uk-text-bold">Bad habits in academic code</p>
-                                <p>Python is very popular among University researchers but we often use it
-                                just to write disposable, uncommented scripts to manipulate data or manage experiments.
-                                This is because the short lifespan of most of the code we write don't justify precautional measures like
-                                proper logging, testing, versioning etc. Except when we find ourselves adding lines of code
-                                and patching that 3-year old script that is now grown into an unmaintainable monster.</p>
-                                <p>The dangers of this behavior are not confined to academic coding though,
-                                so I feel that a quick "horror show" might help current and future developer to reflect and
-                                possibly better their programming habits.</p>
+                                <p>Academic code is (in)famous for being often not maintained, undocumented, not portable, and generally a headache.
+                                  But why? Coming from smart people, often with high programming skills, this seems like a paradox.</p>
+                                <p>In this talk I will give an first-person account of how programming in an academic context can produce a very
+                                  different type of code then what we see in the industry or among hobbyists, and how a set of Python tools can
+                                  help alleviate the gap.</p>
                                 <p class="uk-text-bold">BIO information</p>
                                 <p>I'm currently a 4th year PhD student at RUG in Computational Linguistics,
                                 but in the past have worked with databases, system administration, Web dev
@@ -218,9 +215,9 @@
                                 <img class="with-shadow" width="80" src="static/images/speakers/guido_kollerie.jpeg" alt="Guido Kollerie" />
                                 <span class="uk-text-middle uk-text-bold uk-margin-left">Guido Kollerie</span>
                                 <p class="uk-text-bold">Slice &amp; Dice: Data Analysis using Pandas</p>
-                                <p>Pandas is an increasingly popular and fast Python library for analyzing large amounts of data. It has
-                                  made Python a practical choice for performing data analysis. This talk will introduce Pandas and show real
-                                  world examples slicing and dicing raw data into meaningful information.</p>
+                                <p>Pandas is an increasingly popular and fast Python library for analyzing large amounts of data. It has made
+                                  Python a practical choice for performing data analysis. This talk will introduce Pandas and show real world
+                                  examples slicing and dicing raw data into meaningful information.</p>
                                 <p class="uk-text-bold">BIO information</p>
                                 <p>Freelance software developer.</p>
                             </div>
@@ -236,14 +233,16 @@
                                 <img class="with-shadow" width="80" src="static/images/speakers/kilian_evang.jpeg" alt="Kilian Evang" />
                                 <span class="uk-text-middle uk-text-bold uk-margin-left">Kilian Evang</span>
                                 <p class="uk-text-bold">Produce: Makefiles without the annoying bits</p>
-                                <p>I developed this tool on the side to help me with research, out of frustration with other build tools.
-                                Surprisingly, despite the abundance of FOSS build tools, none out there so far seemed to quite fill the
-                                gap that I outlined above.</p>
-                                <p>I expect that many attendees of PyGrunn have been in similar situations at
-                                least once and will be interested in using Produce or comparing their own solutions to it. My talk will
-                                also serve as a case study of how Python and its rich library help to develop something relatively complex
-                                like an incremental build tool with limited resources, i.e. within a few weeks as a side project in a full-time
-                                research job.</p>
+                                <p>Scientists are increasingly faced with the demand to make their software and data available so others
+                                  can check their method and results. Makefiles provide a fantastic thin layer above shell scripts for
+                                  distributing ready-to-run, self-documenting experiments and analyses.</p>
+                                <p>However, Make has its warts, and some advanced requirements lead to extremely tedious-to-write and
+                                  hard-to-understand code. Alternatives such as SCons or Rake are often too focused on building software
+                                  and give up too much of Make's simplicity to be suitable as a lingua franca" for scientific exchange.</p>
+                                <p>Enter <a href="https://github.com/texttheater/produce" target="_blank">Produce</a>, a new free and open-source incremental build tool written in Python 3 that retains
+                                  the basic concepts of Make and uses the friendly and familiar INI file syntax. Arbitrary regular expressions
+                                  and arbitrary Python expressions make Produce files very powerful while keeping everything as simple and
+                                  intuitive as possible.</p>
                                 <p class="uk-text-bold">BIO information</p>
                                 <p>Kilian Evang is a PhD student in computational semantics at the University of Groningen.
                                 His work is about getting computers to understand the true meaning of sentences and texts in natural languages
@@ -282,15 +281,14 @@
                                 <img class="with-shadow" width="80" src="static/images/speakers/kenneth_reitz.jpeg" alt="Kenneth Reitz" />
                                 <span class="uk-text-middle uk-text-bold uk-margin-left">Kenneth Reitz</span>
                                 <p class="uk-text-bold">Growing Open Source Seeds</p>
-                                <p>I maintain one of the most popular Python libraries in use today, and I believe that a little bit
-                                  of kindness in open source goes a long way :)</p>
+                                <p>This talk will be an in-depth review of the stages that most open source projects go though, and the decisions
+                                  their maintainers face. Requests will be used as an example — lessons learned and best practices will be covered.</p>
                                 <p class="uk-text-bold">Documentation is King</p>
-                                <p>"Every Python developer needs to care deeply on documentation, and realize that it isn't just an
-                                  afterthought.</p>
-                                <p>I'm a good speaker for this topic because I maintain some very popular open source libraries that
-                                  are considered to have great documentation, as well as some documentation-only projects that exist
-                                  to serve the Python community :)</p>
-                                <p>Collectively, these documentation pages receive around 350,000 views a month. :)</p>
+                                <p>Open source is all about communication — a project is only as useful as the documentation is has.</p>
+                                <p>Every design decision should be documented. Imagine not having to have tap your coworkers on the shoulder
+                                  when you’re working on an unfamiliar part of the codebase, or on-boarding a new employee. Imagine being
+                                  able to make the change, run the tests, and push to production without questioning yourself, because the
+                                  process was documented — or better yet, automated.</p>
                                 <p class="uk-text-bold">BIO information</p>
                                 <p>Kenneth Reitz is the product owner of Python at Heroku and a member of the Python Software Foundation.
                                   He embraces minimalism, elegant architecture, and simple interfaces.</p>
@@ -309,7 +307,11 @@
                                 <img class="with-shadow" width="80" src="static/images/speakers/dmitrijs_milajevs.jpeg" alt="Dmitrijs Milajevs" />
                                 <span class="uk-text-middle uk-text-bold uk-margin-left">Dmitrijs Milajevs</span>
                                 <p class="uk-text-bold">Python for data scientists</p>
-                                <p>This tools should be useful to anyone who enjoys experimentation and improvisation.</p>
+                                <p>With the current amount of data, scientists have to become programmers to carry on bleeding edge research.</p>
+                                <p>Python is a great language for building large systems. Currently it becomes more and  more popular in academia
+                                  to perform data processing and exploration.</p>
+                                <p>In this talk I'll introduce the tools that Python community provides to analyze the data. IPython Notebook,
+                                  Matplotliib, bokeh, seaborn and pandas are just few of them.</p>
                                 <p class="uk-text-bold">BIO information</p>
                                 <p>Hmm, a former Paylogic crew member :) currently a Ph.D. student at Queen Mary, University of London.</p>
                             </div>
@@ -406,10 +408,9 @@
                                 <img class="with-shadow" width="80" src="static/images/speakers/question.png" alt="Douwe van der Meij" />
                                 <span class="uk-text-middle uk-text-bold uk-margin-left">Douwe van der Meij</span>
                                 <p class="uk-text-bold">Professional Django setup, deploy and maintain</p>
-                                <p>Using Diazo was presented last year as well but as a proof of concept, today's version is
-                                  fully compatible with, and easy to install in the Django stack. Working with Diazo brings
-                                  new responsibilities into a team but also a separation of concerns. New roles can be defined
-                                  and the traditional way of thinking might have to be refined a bit.</p>
+                                <p>Diazo offers a tool to easily theme any website on any technology. In the past year we developed a
+                                  production-ready Django-Diazo product to use in your regular Django stack.</p>
+                                <p>In this talk we address the benefits of Diazo in Django and we'll discuss the - if any - drawbacks.</p>
                                 <p class="uk-text-bold">BIO information</p>
                                 <p>Developer at Goldmund, Wyldebeast & Wunderliebe. Software engineer, Python minded, Django enthusiast.</p>
                             </div>
