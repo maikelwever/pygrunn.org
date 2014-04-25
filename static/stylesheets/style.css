@@ -103,9 +103,16 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 #greg-kowal-image{background-image:url(../images/speakers/greg_kowal.jpeg);}
 #rodrigo-pimentel-image{background-image:url(../images/speakers/rodrigo_pimentel.jpeg);}
 #saul-ibarra-corretge-image{background-image:url(../images/speakers/saul_ibarra_corretge.jpeg);}
-#robert-reinder-nederhoed-image{background-image:url(../images/speakers/robert_reinder_nederhoed.jpeg);}
 #dirk-zittersteyn-image{background-image:url(../images/speakers/dirk_zittersteyn.jpeg);}
 #denis-bilenko-image{background-image:url(../images/speakers/denis_bilenko.jpeg);}
+#douwe-van-der-meij-image{background-image:url(../images/speakers/question.png);}
+#erik-romijn-image{background-image:url(../images/speakers/question.png);}
+#oscar-vilaplana-image{background-image:url(../images/speakers/question.png);}
+#berco-beute-image{background-image:url(../images/speakers/question.png);}
+#henk-doornbos-image{background-image:url(../images/speakers/question.png);}
+#avi-flax-image{background-image:url(../images/speakers/question.png);}
+#armin-ronacher-image{background-image:url(../images/speakers/question.png);}
+#artur-barseghyan-image{background-image:url(../images/speakers/question.png);}
 
 /* Only Phones */
 @media (max-width:768px) {
