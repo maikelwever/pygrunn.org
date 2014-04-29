@@ -53,6 +53,7 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 .getlogic-logo{width:150px;height:38px;background-image:url(../images/sponsors/getlogic_light.png);}
 .minddistrict-logo{width:300px;height:68px;background-image:url(../images/sponsors/minddistrict_light.png);}
 .goldmund-logo{width:300px;height:44px;background-image:url(../images/sponsors/goldmund_light.png);}
+.heroku-logo{width:140px;height:40px;background-image:url(../images/sponsors/heroku_light.png);}
 .at-logo{width:95px;height:44px;background-image:url(../images/sponsors/at_light.png);}
 .voys-logo{width:180px;height:20px;background-image:url(../images/sponsors/voys_light.png);}
 .launchcafe-logo{width:120px;height:31px;background-image:url(../images/sponsors/launchcafe_light.png);}
@@ -155,4 +156,5 @@ only screen and (min-device-pixel-ratio: 2){
     .launchcafe-logo{background-image:url(../images/sponsors/launchcafe_light@2x.png);}
     .experty-logo{background-image:url(../images/sponsors/experty_light@2x.png);}
     .peperzaken-logo{background-image:url(../images/sponsors/peperzaken_light@2x.png);}
+    .heroku-logo{background-image:url(../images/sponsors/heroku_light@2x.png);}
 }
