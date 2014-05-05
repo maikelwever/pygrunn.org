@@ -117,6 +117,8 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 #armin-ronacher-image{background-image:url(../images/speakers/armin_ronacher.jpeg);}
 #artur-barseghyan-image{background-image:url(../images/speakers/artur_barseghyan.jpeg);}
 #jeff-knupp-image{background-image:url(../images/speakers/jeff_knupp.jpeg);}
+#panel-image{background-image:url(../images/speakers/panel.png);background-color:#FEFEFE;}
+#panel-inner-image{background-color:#ECECEC;}
 
 /* Only Phones */
 @media (max-width:768px) {
