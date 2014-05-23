@@ -41,7 +41,7 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 
 /* Layouts */
 .uk-offcanvas-page{position:absolute;}
-.headerbar{position:fixed;top:0;width:100%;z-index:12;}
+.headerbar{position:fixed;top:0;width:100%;z-index:1000;}
 .fullscreen{background:url(../images/top_bg.jpg) no-repeat 50% 50%;background-size:cover;position:relative;}
 #feature{font-family:'Patua One',cursive;}
 
@@ -119,6 +119,10 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 #jeff-knupp-image{background-image:url(../images/speakers/jeff_knupp.jpeg);}
 #panel-image{background-image:url(../images/speakers/panel.png);background-color:#FEFEFE;}
 #panel-inner-image{background-color:#ECECEC;}
+
+/* Sticky Custom */
+.uk-sticky{position:absolute;width:100%;}
+.sticky-top h2{text-align:center;color:#FFFFFF;margin:0 auto;max-width:400px;background:#0B333F;padding:15px;border:1px solid #ffffff;box-shadow:0 1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.1);border-radius:3px;}
 
 /* Only Phones */
 @media (max-width:768px) {
