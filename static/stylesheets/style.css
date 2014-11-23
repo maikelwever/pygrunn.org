@@ -122,7 +122,7 @@ a:hover,.uk-link:hover{color:#312A1E;text-decoration:none;}
 
 /* Sticky Custom */
 .uk-sticky{position:absolute;width:100%;}
-.sticky-top h2{text-align:center;color:#FFFFFF;margin:0 auto;max-width:400px;background:#0B333F;padding:15px;border:1px solid #ffffff;box-shadow:0 1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.1);border-radius:3px;}
+.sticky-top h2{text-align:center;color:#FFFFFF;margin:0 auto;max-width:500px;background:#0B333F;padding:15px;border:1px solid #ffffff;box-shadow:0 1px 10px rgba(0,0,0,0.1);-moz-box-shadow:0 1px 10px rgba(0,0,0,0.1);-webkit-box-shadow:0 1px 10px rgba(0,0,0,0.1);border-radius:3px;}
 
 /* Only Phones */
 @media (max-width:768px) {
